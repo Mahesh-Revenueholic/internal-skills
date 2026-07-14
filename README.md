@@ -1,2 +1,2 @@
-WIP - V1 start with SEO stuff - test with OCAI evals
-Give keyword get good blog
+want moar blog ranking?
+run seo-blog-pipeline.json from https://github.com/Mahesh-Revenueholic/internal-skills
