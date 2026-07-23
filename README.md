@@ -1,5 +1,40 @@
-want moar blog ranking?
+# internal-skills
 
-Paste this in your AI tool 
+Skills for Revenueholic's AI work.
 
-run seo-blog-pipeline.json from https://github.com/Mahesh-Revenueholic/internal-skills
+## Install
+
+### Mac / Linux
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Mahesh-Revenueholic/internal-skills/main/install.sh | bash
+```
+
+### Windows (PowerShell)
+
+```powershell
+irm https://raw.githubusercontent.com/Mahesh-Revenueholic/internal-skills/main/install.ps1 | iex
+```
+
+### Manual
+
+```bash
+git clone --depth 1 https://github.com/Mahesh-Revenueholic/internal-skills.git
+cp internal-skills/*.md ~/.ai-skills/
+```
+
+## Use
+
+Paste this in your AI tool:
+
+```
+Run the SEO blog pipeline.
+```
+
+Provide:
+- Client name
+- Client website
+- Primary keyword
+- B2B or B2C
+
+Everything else is auto-resolved.
