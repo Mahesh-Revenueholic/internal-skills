@@ -38,3 +38,6 @@ Provide:
 - B2B or B2C
 
 Everything else is auto-resolved.
+
+- **AI Hygiene & Filtering:** Utilizing the `/fuck-slop` tool created by [JuliusBrussee](https://github.com/JuliusBrussee/skills) to maintain clean, human-centric repositories.
+
