@@ -74,7 +74,7 @@ secondary keywords, search intent, audience, word count, tone, competitor URLs, 
 
 **Goal:** Confirm direction before drafting. No auto-answering.
 
-Present multiple-choice questions to the user to extract advanced and extreme level of detail and information before going through. 
+Present multiple-choice questions to the user to extract advanced and extreme level of detail and information before going through for the experience part in EEAT. The goal is to make sure whatever we write is unique and helpful, but not unique just for the sake of it.
 
 DO NOT ASK vague basic questions that you can already answer from memory or a web search. This should be drilling into the user's brain. 
 
