@@ -220,9 +220,7 @@ Before presenting MCQs, the agent MUST present a brief summarizing:
  - Recommended target reader (with reasoning)
  - Recommended CTA (with reasoning)
 
-3. **MCQ Questions**: Only questions that passed the filter above.
- These should be few (3-5 max) and surgically focused on insider
- knowledge.
+3. **MCQ Questions**: Ask as many deep questions as you want. 
 
 The user reviews the brief, confirms/modifies recommendations,
 answers the MCQs, and THEN the agent proceeds to Phase 4.
@@ -355,5 +353,4 @@ Before producing deliverables, verify:
 - No fabrication of data, quotes, or statistics
 - Phase 5 (Review) and Phase 6 (Polish) are NON-NEGOTIABLE. If the Phase Tracker shows either as "Pending" at delivery, the delivery has FAILED. There is no "good enough to skip" threshold. The review exists because the writer cannot see their own blind spots. Always.
 - If blocked: self-diagnose and continue (don't stop and wait)
-- Target: 10–15 minutes per blog, zero revision rounds
 - Compliant-but-boring = failed draft
