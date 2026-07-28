@@ -10,7 +10,7 @@ tools:
 approach:
   - "Phase 1: Context - check memory, match skills, scrape client site, auto-research optional fields"
   - "Phase 2: SERP - search keyword, scrape top 5, identify gaps, choose differentiation format"
-  - "Phase 3: MCQ - hard gate, present foundational questions, wait for answers before proceeding"
+  - "Phase 3: MCQ - hard gate, present questions, wait for answers before proceeding"
   - "Phase 4: Draft - first draft using B2B/B2C skill, 2000-3500 words, grade 5 reading level"
   - "Phase 5: Review - anti-slop checks in a loop (minimum 5 runs), literal-match banned patterns"
   - "Phase 6: Polish - address all issues, engagement pass, write meta assets, re-verify"
@@ -74,16 +74,9 @@ secondary keywords, search intent, audience, word count, tone, competitor URLs, 
 
 **Goal:** Confirm direction before drafting. No auto-answering.
 
-Present foundational multiple-choice questions:
+Present multiple-choice questions to the user to extract advanced and extreme level of detail and information before going through. 
 
-1. Topic angle / approach
-2. Target audience
-3. Goal of the post
-4. Length
-5. Tone
-6. Key points to cover
-7. Data or evidence to include
-8. CTA
+DO NOT ASK vague basic questions that you can already answer from memory or a web search. This should be drilling into the user's brain. 
 
 **Must receive answers before proceeding to Phase 4.** This is a hard gate. Do not skip. Do not auto-answer.
 
