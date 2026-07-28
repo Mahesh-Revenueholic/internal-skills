@@ -145,32 +145,24 @@ Every MCQ question MUST include three components:
 
 ## Phase 4: Draft
 
-**Goal:** First draft using the appropriate B2B or B2C skill.
+**Goal:** First draft using appropriate B2B or B2C copywriting skills. Use conversational direct response copywriting practices.
 
 ### Writer Rules
-- 2000–3500 words
 - Grade 5 reading level
 - Third person
-- 3+ engagement techniques (see below)
-- Every tool mentioned must be verified via web search
+- Every tool, statistic or another company or claims mentioned must be verified via web search
 - No fabricated data, quotes, or statistics
+- Do not make TYPE I OR TYPE II errors. Check for false positive or false negative claims.
+- Do not undersell (for example, state an important feature but not actually make it sound important)
+- Do no oversell
+- When comparing competitors, run every claim to make sure it is not a false negative (eg. a competitor has a feature but you wrote as if they didn't) or a false positive (eg. a competitor does not have a feature but you said they do) 
 
-**Quality gate:** Draft meets word count, reading level, and engagement minimums.
-
+**Quality gate:** Draft meets above standards
 ---
 
 ## Phase 5: Review
 
-**Goal:** Run anti-slop checks until the draft is clean.
-
-### Reviewer Rules
-- Minimum 5 review runs
-- Literal-match against all 14 banned patterns
-- Rate every criterion: **Strong / Needs Work / Weak** — with evidence
-- Rewrite any section rated Needs Work or Weak
-- Loop until all criteria are Strong or explicitly justified
-
-**Quality gate:** All criteria rated Strong or justified. Zero banned pattern matches.
+**Goal:** Run /fuck-slop skill until no flag
 
 ---
 
@@ -180,14 +172,12 @@ Every MCQ question MUST include three components:
 
 ### Polisher Rules
 1. Address all Critical and Needs Work items from review.
-2. Engagement pass — ensure 3+ engagement techniques are present and effective.
 3. Write title tag (≤60 characters).
 4. Write meta description (≤155 characters).
 5. Write URL slug.
 6. Write editor's note.
-7. Re-verify everything: links, facts, tools, formatting.
-
-**Quality gate:** All review items resolved. Meta assets written. Full re-verification complete.
+   
+**Quality gate:** All review items resolved. Meta assets written. 
 
 ---
 
@@ -204,42 +194,6 @@ Every MCQ question MUST include three components:
 - Internal links
 - FAQ section
 - Auto-field report (what was auto-resolved and how)
-
----
-
-## Banned Patterns (14)
-
-Literal-match these. Any match = rewrite.
-
-1. Confrontational openings
-2. Wall-of-text paragraphs
-3. Comparison tables instead of H3s
-4. Generic H2s
-5. Repetitive closings
-6. "Not X, but Y" assessments
-7. Generic capability assessments
-8. Self-announced honesty
-9. Manufactured emphasis
-10. Buzzwords
-11. Em dashes
-12. 20+ word sentences
-13. Above grade-5 reading level
-14. Unauthorized first-person
-
----
-
-## Engagement Techniques (8)
-
-Use at least 3 per blog.
-
-1. Named frameworks
-2. Specific numbers / thresholds
-3. Blunt skip recommendations
-4. Surprising openings
-5. Threaded narrative
-6. Sticky closings
-7. Tradeoffs as practical implications
-8. Varied tool section structure
 
 ---
 
