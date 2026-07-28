@@ -72,52 +72,108 @@ secondary keywords, search intent, audience, word count, tone, competitor URLs, 
 
 ## Phase 3: MCQ (Hard Gate)
  
+## Phase 3: MCQ (Hard Gate)
+ 
 Goal: Confirm direction before drafting. No auto-answering.
  
-Present multiple-choice questions to the user to extract advanced and extreme 
-level of detail and information before going through for the experience part 
-in EEAT. The goal is to make sure whatever we write is unique and helpful, 
-but not unique just for the sake of it.
+Present multiple-choice questions to the user to extract advanced and 
+extreme level of detail and information before going through for the 
+experience part in EEAT. The goal is to make sure whatever we write is 
+unique and helpful, but not unique just for the sake of it.
  
-DO NOT ASK vague basic questions that you can already answer from memory or 
-a web search. This should be drilling into the user's brain.
+DO NOT ASK vague basic questions that you can already answer from memory 
+or a web search. This should be drilling into the user's brain.
  
-### Question Requirements (MANDATORY)
+### Pre-MCQ Research Requirement (MANDATORY)
  
-Every MCQ question MUST include three components:
+Before presenting ANY MCQ questions, the agent MUST:
  
-1. **Why this question is being asked**
-   What specific decision does the answer inform? What goes wrong if we 
-   guess wrong here? One or two sentences. No fluff.
+1. Scrape the competitor's website and/or documentation to verify ALL 
+   factual claims about the competitor's features, limitations, and 
+   behavior. No assumptions about competitor capabilities are allowed 
+   in MCQs.
  
-2. **Claim verification table**
-   Any factual claim made within a question ,  about the competitor, the 
-   client, the market, user behavior, feature existence ,  MUST be tagged 
-   with:
-   - **Source**: Where did this claim come from? 
-     (client site scrape / SERP analysis / competitor site scrape / 
-      general knowledge / assumption)
-   - **Confidence**: Verified | Likely | Unverified assumption
-   - **Needs user confirmation**: Yes or No
+2. Complete SERP analysis to determine which alternatives are already 
+   being discussed and which are most relevant.
  
-   If a question contains zero factual claims (pure strategy/preference 
-   questions), state: "No claims in this question."
+3. Formulate the agent's OWN recommendations for:
+   - Blog angle (based on research, not guesswork)
+   - Which alternatives to include (based on SERP + relevance)
+   - Hero differentiator (based on competitor weakness vs. client 
+     strength analysis)
+   - Target reader persona (based on client's B2B context)
+   - CTA (based on client's existing site)
  
-3. **Impact of the answer**
-   One sentence: what concretely changes in the draft based on which 
-   option the user picks.
+4. Present these recommendations as PROPOSALS for the user to confirm 
+   or modify, NOT as open-ended questions.
  
-### Format (use for every question):
+### MCQ Question Filter (MANDATORY)
+ 
+Before writing any MCQ question, run it through this filter:
+ 
+  ┌─────────────────────────────────────────────────────┐
+  │  Can this be answered through research (web scrape,  │
+  │  SERP analysis, competitor site, documentation)?     │
+  │                                                      │
+  │  YES → DO NOT ASK. Research it. State the finding    │
+  │        as a verified fact in the brief.              │
+  │                                                      │
+  │  NO ↓                                                │
+  │                                                      │
+  │  Can this be answered through the agent's own        │
+  │  analysis of available data (SERP + client site +    │
+  │  competitor research)?                               │
+  │                                                      │
+  │  YES → DO NOT ASK. Propose the answer as a           │
+  │        recommendation. User confirms or modifies.    │
+  │                                                      │
+  │  NO ↓                                                │
+  │                                                      │
+  │  Does this require insider knowledge, business       │
+  │  strategy, brand voice preference, or context that   │
+  │  NO amount of research would reveal?                 │
+  │                                                      │
+  │  YES → ASK. This is a legitimate MCQ question.       │
+  │                                                      │
+  │  NO → Do not ask. Drop it.                           │
+  └─────────────────────────────────────────────────────┘
+ 
+### What Belongs in MCQs (ALLOWED):
+ 
+- Insider business context (e.g., "40% of our users come from Poe")
+- Strategic positioning decisions that require business judgment 
+  the agent cannot make (e.g., "Do we want to name competitors 
+  aggressively or stay neutral?")
+- Brand voice preferences not evident from the site
+- Information about the client's product that isn't public
+- User's knowledge of the competitor that contradicts public 
+  information
+- Priority ordering when multiple valid strategies exist and the 
+  choice depends on business goals only the user knows
+ 
+### What Does NOT Belong in MCQs (FORBIDDEN):
+ 
+- Factual questions about competitor features → RESEARCH IT
+- "Is it true that [competitor] does X?" → RESEARCH IT
+- Which alternatives to include → AGENT DECIDES, proposes
+- Which feature to lead with → AGENT DECIDES, proposes
+- Blog angle selection → AGENT DECIDES, proposes
+- Anything answerable by reading the competitor's website → RESEARCH IT
+- Anything answerable by reading the client's website → ALREADY DONE
+- Vague preference questions with no strategic stakes → DROP IT
+ 
+### MCQ Format (for legitimate questions only):
  
 ---
 **Q1. [Question text]**
  
-*Why we're asking:* [What decision this informs + what breaks if wrong]
+*Why we're asking:* [What insider knowledge/decision this requires 
+that research cannot provide]
  
 *Impact:* [What changes in the draft based on the answer]
  
 - A) [Option]
-- B) [Option]  
+- B) [Option]
 - C) [Option]
 - D) Something else ,  tell me
  
@@ -125,21 +181,38 @@ Every MCQ question MUST include three components:
 | Claim | Source | Confidence | Needs your confirmation? |
 |-------|--------|------------|------------------------|
 | [claim text] | [source] | [level] | [yes/no] |
+ 
+If no claims: "No claims in this question."
 ---
  
-### Rules:
-- NEVER present an unverified claim as a fact inside a question.
-- If a claim is unverified, the question should explicitly flag it: 
-  "We're assuming [X] ,  is this true?"
-- If you cannot verify a claim about a competitor, say so. Do not 
-  bluff. The user needs to know what's research vs. what's guessing.
-- Maximum 8 questions per keyword. Quality over quantity.
-- Every question must pass: "Would the user understand WHY I'm asking 
-  this and trust the basis of the question?" If no, rewrite.
-
-**Must receive answers before proceeding to Phase 4.** This is a hard gate. Do not skip. Do not auto-answer.
-
-**Quality gate:** All MCQ answers received and acknowledged.
+### Pre-MCQ Brief (MANDATORY)
+ 
+Before presenting MCQs, the agent MUST present a brief summarizing:
+ 
+1. **Competitor Research Findings**: What was verified about the 
+   competitor (with sources). All factual claims must be resolved 
+   here, NOT in MCQs.
+ 
+2. **Agent Recommendations** (for the user to confirm or modify):
+   - Recommended blog angle (with reasoning)
+   - Recommended alternatives to include (with reasoning)
+   - Recommended hero differentiator (with reasoning)
+   - Recommended target reader (with reasoning)
+   - Recommended CTA (with reasoning)
+ 
+3. **MCQ Questions**: Only questions that passed the filter above. 
+   These should be few (3-5 max) and surgically focused on insider 
+   knowledge.
+ 
+The user reviews the brief, confirms/modifies recommendations, 
+answers the MCQs, and THEN the agent proceeds to Phase 4.
+ 
+Must receive answers before proceeding to Phase 4. This is a hard 
+gate. Do not skip. Do not auto-answer.
+ 
+Quality gate: All MCQ answers received and acknowledged. All 
+competitor claims verified through research. All agent 
+recommendations confirmed or modified by user.
 
 ---
 
