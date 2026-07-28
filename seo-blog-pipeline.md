@@ -71,12 +71,71 @@ secondary keywords, search intent, audience, word count, tone, competitor URLs, 
 ---
 
 ## Phase 3: MCQ (Hard Gate)
-
-**Goal:** Confirm direction before drafting. No auto-answering.
-
-Present multiple-choice questions to the user to extract advanced and extreme level of detail and information before going through for the experience part in EEAT. The goal is to make sure whatever we write is unique and helpful, but not unique just for the sake of it.
-
-DO NOT ASK vague basic questions that you can already answer from memory or a web search. This should be drilling into the user's brain. 
+ 
+Goal: Confirm direction before drafting. No auto-answering.
+ 
+Present multiple-choice questions to the user to extract advanced and extreme 
+level of detail and information before going through for the experience part 
+in EEAT. The goal is to make sure whatever we write is unique and helpful, 
+but not unique just for the sake of it.
+ 
+DO NOT ASK vague basic questions that you can already answer from memory or 
+a web search. This should be drilling into the user's brain.
+ 
+### Question Requirements (MANDATORY)
+ 
+Every MCQ question MUST include three components:
+ 
+1. **Why this question is being asked**
+   What specific decision does the answer inform? What goes wrong if we 
+   guess wrong here? One or two sentences. No fluff.
+ 
+2. **Claim verification table**
+   Any factual claim made within a question ,  about the competitor, the 
+   client, the market, user behavior, feature existence ,  MUST be tagged 
+   with:
+   - **Source**: Where did this claim come from? 
+     (client site scrape / SERP analysis / competitor site scrape / 
+      general knowledge / assumption)
+   - **Confidence**: Verified | Likely | Unverified assumption
+   - **Needs user confirmation**: Yes or No
+ 
+   If a question contains zero factual claims (pure strategy/preference 
+   questions), state: "No claims in this question."
+ 
+3. **Impact of the answer**
+   One sentence: what concretely changes in the draft based on which 
+   option the user picks.
+ 
+### Format (use for every question):
+ 
+---
+**Q1. [Question text]**
+ 
+*Why we're asking:* [What decision this informs + what breaks if wrong]
+ 
+*Impact:* [What changes in the draft based on the answer]
+ 
+- A) [Option]
+- B) [Option]  
+- C) [Option]
+- D) Something else ,  tell me
+ 
+*Claims in this question:*
+| Claim | Source | Confidence | Needs your confirmation? |
+|-------|--------|------------|------------------------|
+| [claim text] | [source] | [level] | [yes/no] |
+---
+ 
+### Rules:
+- NEVER present an unverified claim as a fact inside a question.
+- If a claim is unverified, the question should explicitly flag it: 
+  "We're assuming [X] ,  is this true?"
+- If you cannot verify a claim about a competitor, say so. Do not 
+  bluff. The user needs to know what's research vs. what's guessing.
+- Maximum 8 questions per keyword. Quality over quantity.
+- Every question must pass: "Would the user understand WHY I'm asking 
+  this and trust the basis of the question?" If no, rewrite.
 
 **Must receive answers before proceeding to Phase 4.** This is a hard gate. Do not skip. Do not auto-answer.
 
