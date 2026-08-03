@@ -252,7 +252,7 @@ recommendations confirmed or modified by user.
 
 **Quality gate:** Draft meets above standards
 
-**PHASE GATE:** Do not begin Phase 5 until this quality gate is met and the artifact is documented in the Phase Tracker.
+**PHASE GATE:** Do not begin Phase 5 until this quality gate is met and the artifact is documented in the Phase Tracker. PROCEED directly to Phase 5 review. DO NOT ASK THE USER to review the output now. 
 
 ---
 
