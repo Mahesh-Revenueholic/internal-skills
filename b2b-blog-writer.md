@@ -131,26 +131,7 @@ If the user has answered any of the questions below in past conversations and th
 
 ---
 
-### Step 2: Hard-Required Inputs (Will Not Proceed Without These)
-
-If any of the following are missing after memory check, ask in a tight first round before going further:
-
-| Input | Why required |
-|---|---|
-| Primary keyword | The post is built around this |
-| Target audience (specific: role + company stage + industry) | "B2B buyers" is not specific. "Heads of marketing at Series A B2B SaaS companies in India" is. |
-| Goal of the post | Inquiry, demo, signup, awareness, link bait — these produce different posts |
-| Competitor analysis (competitor-page-assessor output) OR explicit override | Without this, the post is written without knowing the landscape |
-
-If competitor analysis is missing, ask once:
-
-> "I don't have a competitor page assessment for this keyword. That analysis usually changes what the post covers and how it's structured. Want to run that first, or should I proceed without it?"
-
-If the user chooses to proceed without it, note this and move forward. Do not nag.
-
----
-
-### Step 3: Adaptive E-E-A-T Experience Questioning
+### Step 2 : Adaptive E-E-A-T Experience Questioning
 
 This is the part that makes the post unique. Use with multiple-choice options, switch to free-text only when the answer genuinely can't be enumerated.
 
