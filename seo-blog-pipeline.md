@@ -240,7 +240,7 @@ recommendations confirmed or modified by user.
 
 ## Phase 4: Draft
 
-**Goal:** First draft using appropriate B2B or B2C copywriting skills. Use conversational direct response copywriting practices.
+**Goal:** First draft using human-write.md from this repo in conjunction with appropriate B2B or B2C copywriting skills in this repo. Use conversational direct response copywriting practices.
 
 ### Writer Rules
 - Grade 5 reading level
