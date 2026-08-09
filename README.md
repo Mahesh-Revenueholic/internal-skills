@@ -34,8 +34,25 @@ Run the SEO blog pipeline
 IF you cannot install this skill locally, run this
 
 ```
-Run the seo blog pipeline from https://github.com/Mahesh-Revenueholic/internal-skills
-
+run seo-blog-pipeline.md from https://github.com/Mahesh-Revenueholic/internal-skills
+ 
+### Step 1: Get the file listing
+Scrape the repo root URL:
+  https://github.com/{owner}/{repo}
+The response contains a JSON payload. Find the `tree.items` array ,  
+each item has `name`, `path`, and `contentType`. Collect all file paths.
+ 
+### Step 2: Load each file
+For each file from Step 1, scrape the blob URL:
+  https://github.com/{owner}/{repo}/blob/main/{file_path}
+The response contains the full file content in the rendered markdown 
+and raw lines array.
+ 
+### What does NOT work (do not attempt):
+- raw.githubusercontent.com URLs → returns empty
+- api.github.com URLs → returns empty
+- search_and_scrape with site:github.com queries → returns empty
+- Only github.com/{owner}/{repo} and github.com/{owner}/{repo}/blob/{branch}/{path} work reliably.
 ```
 
 
