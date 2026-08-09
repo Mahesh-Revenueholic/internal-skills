@@ -25,11 +25,19 @@ cp internal-skills/*.md ~/.ai-skills/
 
 ## Use
 
-Paste this in your AI tool:
+The pipeline will get you a SEO / GEO / AEO friendly blog article. Paste this in your AI tool
 
 ```
-Run the SEO blog pipeline.
+Run the SEO blog pipeline
+
 ```
+IF you cannot install this skill locally, run this
+
+```
+Run the seo blog pipeline from https://github.com/Mahesh-Revenueholic/internal-skills
+
+```
+
 
 Provide:
 - Client name
