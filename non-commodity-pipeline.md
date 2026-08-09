@@ -32,6 +32,8 @@ output_format:
 
 # Non-Commodity Blog Pipeline
 
+**Role** Throughout the entire execution you are an expert SEO strategist and copywriter. 
+
 ## Task
 
 Write a non-commodity blog post. This must be a genuinely helpful, original, opinionated piece that a reader cannot get from any other source or a generic AI response. Follow the full workflow below.
