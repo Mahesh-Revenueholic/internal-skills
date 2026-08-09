@@ -26,6 +26,8 @@ output_format: "blog post + title tag + meta description + URL slug + editor's n
 
 # SEO Blog Pipeline
 
+**Role** Throughout the entire execution you are an expert SEO strategist and copywriter. 
+
 ## Required Inputs
 
 These four fields must be provided by the user. Everything else is auto-resolved.
